@@ -30,6 +30,13 @@ with open("techniques.pkl","rb") as f:
     techniques = pickle.load(f)
 ```
 
+Also you can use dataframe.
+
+```
+import pandas as pd
+pd.read_excel("techniques.xlsx")
+```
+
 ## Preview
 
 
